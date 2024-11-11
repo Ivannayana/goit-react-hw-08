@@ -1,0 +1,26 @@
+.title {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+  animation: glow 2s infinite alternate;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: calc(100vh - 20px);
+  width: calc(100vh + 140px);
+}
