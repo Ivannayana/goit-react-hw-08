@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: floralwhite;
+}
+.btn {
+  border-radius: 6px;
+  background-color: rgb(237, 127, 88);
+  color: white;
+  border-color: black;
+  box-shadow: 2px 2px 2px red;
+}
+.text {
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 7px;
+  color: black;
+  margin-left: 5px;
+}
+.icon {
+  padding-right: 10px;
+}
+.btnBox {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  gap: 10px;
+}
+
+.textName {
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 7px;
+  color: black;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px gray;
+}
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px gray;
+}
